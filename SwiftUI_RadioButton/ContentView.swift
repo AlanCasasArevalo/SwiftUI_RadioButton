@@ -9,8 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack (alignment: .leading) {
+                    Text("Example")
+                        .font(Font.headline)
+                        .padding()
+                    RadioButtonGroup(items: ["Rome", "London", "Paris", "Berlin", "New York"], selectedId: "London") { selected in
+                        print("Selected is: \(selected)")
+                    }
+                }.padding()
     }
 }
 

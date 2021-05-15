@@ -11,6 +11,9 @@
 		51FAE511264FC26000ED27CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FAE510264FC26000ED27CD /* ContentView.swift */; };
 		51FAE513264FC26200ED27CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51FAE512264FC26200ED27CD /* Assets.xcassets */; };
 		51FAE516264FC26200ED27CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51FAE515264FC26200ED27CD /* Preview Assets.xcassets */; };
+		51FAE51F264FC27C00ED27CD /* ColorInvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FAE51E264FC27C00ED27CD /* ColorInvert.swift */; };
+		51FAE522264FC29C00ED27CD /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FAE521264FC29C00ED27CD /* RadioButton.swift */; };
+		51FAE525264FC35F00ED27CD /* RadioButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FAE524264FC35F00ED27CD /* RadioButtonGroup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		51FAE512264FC26200ED27CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51FAE515264FC26200ED27CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		51FAE517264FC26200ED27CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51FAE51E264FC27C00ED27CD /* ColorInvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorInvert.swift; sourceTree = "<group>"; };
+		51FAE521264FC29C00ED27CD /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		51FAE524264FC35F00ED27CD /* RadioButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonGroup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				51FAE50E264FC26000ED27CD /* SwiftUI_RadioButtonApp.swift */,
 				51FAE510264FC26000ED27CD /* ContentView.swift */,
+				51FAE524264FC35F00ED27CD /* RadioButtonGroup.swift */,
+				51FAE51E264FC27C00ED27CD /* ColorInvert.swift */,
+				51FAE521264FC29C00ED27CD /* RadioButton.swift */,
 				51FAE512264FC26200ED27CD /* Assets.xcassets */,
 				51FAE517264FC26200ED27CD /* Info.plist */,
 				51FAE514264FC26200ED27CD /* Preview Content */,
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51FAE51F264FC27C00ED27CD /* ColorInvert.swift in Sources */,
+				51FAE525264FC35F00ED27CD /* RadioButtonGroup.swift in Sources */,
 				51FAE511264FC26000ED27CD /* ContentView.swift in Sources */,
 				51FAE50F264FC26000ED27CD /* SwiftUI_RadioButtonApp.swift in Sources */,
+				51FAE522264FC29C00ED27CD /* RadioButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
